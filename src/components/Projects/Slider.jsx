@@ -9,42 +9,23 @@ import styled from 'styled-components';
 
 let data = [
 
-  {
-    img : "https://cdn.discordapp.com/attachments/1097257485154398259/1111647975891021844/image.png",
-    disc : "Nettside for manuellterapeut med nettbutikk og kursportal.",
-    link : "https://www.martinhanstvedt.no/"
-},
-
-{
-  img : "https://i.postimg.cc/76LGyW9K/gv-rentals.png",
-  disc : "Rebranding",
-  link : "https://www.gv-rentals.com/"
-},
-
 {
   img : "https://i.postimg.cc/Dz0bXz42/frontend-mentor-calc.png",
   disc : "Frontend Mentor oppgave",
-  link : "https://github.com/Raaks1/calculator-app"
+  link : "https://github.com/SteinIngekodehode/frontendmentor-calculator"
 },
 
  {
-      img : "https://i.postimg.cc/qv0sz0GR/elitesprinttrening-screenshot.png",
-      disc : "Nettside for sprinttrening og coaching /m nettbutikk. - Lanseres i vinter",
-      link : "https://www.elitesprinttrening.no/"
+      img : "https://cdn.pixabay.com/photo/2017/08/30/23/41/football-2698969_1280.jpg",
+      disc : "Nettside med data frå Premier League",
+      link : "https://github.com/SteinIngekodehode/PremierLeague-App"
 },
     {
-        img : "https://res.cloudinary.com/dre3sek1a/image/upload/v1685106116/Test/microsoftoffice365_fktjfa.avif",
-        disc : "Applikasjon med oversikt over brukertilgang i Azure og Office",
-        link : "https://o365licenses.azurewebsites.net/"
+        img : "https://cdn.pixabay.com/photo/2017/09/04/18/39/coffee-2714970_1280.jpg",
+        disc : "Oppgave frå Diggit.io, mobilapplikasjon av katalog med kaffitypar",
+        link : "https://github.com/SteinIngekodehode/coffeeApp"
     },
-   
-    {
-        img : "https://res.cloudinary.com/dre3sek1a/image/upload/v1685106705/Test/desktop-preview_ujviak.jpg",
-        disc : "Tipps-Kalkulator!",
-        link: "https://raaks1.github.io/tip-calculator-app-main/"
-    },
-    
-    
+      
 ];
 
 let settings = {
@@ -130,6 +111,11 @@ const Buttons = styled.div`
   }
 
   .back{
+    font-size: 20px;
     left: -1rem;
+  }
+
+  .next{
+    font-size: 20px;
   }
 `

@@ -31,7 +31,7 @@ export default Header
 const Container = styled.div`
 
     display: flex;
-    border-bottom: 1px solid #03002f;
+    border-bottom: 1px solid ;
     align-items: center;
     justify-content: space-between;
     max-width: 1280px;
@@ -85,7 +85,7 @@ const Container = styled.div`
     }
 `
 const Logo = styled.div`
-   color: #ffbf00;
+   color: #FF9912;
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -95,7 +95,7 @@ const Logo = styled.div`
 
     h1{
         font-family: Montserrat;
-        color: #03002f;
+        color: black;
         font-weight: 900;
         font-size: 1.2rem;
     }
@@ -124,7 +124,7 @@ const Nav = styled.div`
     span{
         margin-left: 1rem;
         a{
-            color: #03002f;
+            color: black;
             text-decoration: none;
             font-weight: 400;
             position: relative;

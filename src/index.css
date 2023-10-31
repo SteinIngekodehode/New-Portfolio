@@ -11,8 +11,9 @@
 }
 
 :root{
-  
-  --lighter: #03002f;
+  -text: #00B2A9;
+  --text: #F6EB61;
+  --lighter: #b21534;
   ---background: #fff;/*rgba(16, 1, 24, 0.97);*/
 }
 
@@ -64,7 +65,7 @@ body{
 
 .icon { color: #03002f}
 
-.icons { color: #ffbf00;}
+.icons { color: #FF9912;}
 
 .red {
   color:#03002f;

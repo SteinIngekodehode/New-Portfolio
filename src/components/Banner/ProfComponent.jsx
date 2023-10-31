@@ -23,21 +23,27 @@ const ProfComponent = () => {
           Stein Inge Kvernhusvik<span className="green"></span>
           </h4>
           <h1 className="green">Frontend Utvikler<span className="red"></span></h1>
-          <h3>Javascript - React - CSS</h3>
+          <h3>Javascript - React - CSS - HTML - Vite - Github</h3>
           <p>
-          Jeg leverer skreddersydde og innovative nettløsninger som hjelper deg med å oppnå dine digitale mål.
-          Enten du er en nyoppstartet bedrift som ønsker å etablere en profesjonell online tilstedeværelse, eller en etablert virksomhet som ønsker å oppgradere ditt nåværende nettsted, kan jeg hjelpe deg.
+          Hei!
+
+          Eg jobbar for tida hardt med å omskulere meg til å bli frontend-utviklar.
+          Det siste året har eg brukt tida på å lære meg HTML, CSS, Javascript og React.
+          Det er utfordrande, men givande når ein står igjen med eit produkt ein har laga sjølv.
+          Eit reint og ryddig design, er det eg tilstrebar å få til.
+
+          Ta kontakt viss du ønsker å ansette nokon som er villig til å legge ned innsatsen som trengs for å bli ein ressurs i di bedrift! 
           </p>
           <Link smooth to="/#footer">
           <button>Ta kontakt</button></Link>
-          <Link smooth to="/#service">
-          <button id="mer">Les mer</button></Link>
+          <Link smooth to="/#about">
+          <button id="mer">Om meg</button></Link>
           <Social>
             <p></p>
             <div className="social-icons">
               
               <span>
-                <a href="https://github.com/steinginge1">
+                <a href="https://github.com/SteinIngekodehode">
                   <FaGithub />
                 </a>
               </span>
@@ -91,10 +97,9 @@ const Texts = styled.div`
   
   flex: 1;
   h4 {
-    font-family: Helvetica-neue Narrow SemiBold;
-    color:#ffbf00;
-    font-size: 16px;
-    letter-spacing: .2em;
+    font-family: Montserrat;
+    color:#FF9912;
+    font-size: 20px;
     padding: 2rem 0;
     
   }
@@ -106,7 +111,7 @@ const Texts = styled.div`
     font-weight: 700;
   }
   h3 {
-    color:#ffbf00;
+    color:#FF9912;
     font-weight: 500;
     font-size: 1.2rem;
     padding-top: 2rem;
@@ -170,7 +175,7 @@ const Social = styled.div`
       height: 2rem;
       border-radius: 10% 10% 10% 10%;
       clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
-      background-color:#ffbf00;
+      background-color:#FF9912;
      
       position: relative;
       transition: transform 400ms ease-in-out;

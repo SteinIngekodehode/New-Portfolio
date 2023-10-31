@@ -8,17 +8,18 @@ const AboutMe = () => {
   
     return (
 
-<Container>
+<Container id="about">
 
 <Texts>
     <h1>Om meg<span className="red"></span></h1>
-    <p> Jeg forstår viktigheten av å ha en imponerende og funksjonell nettside uten å bryte budsjettet ditt. Derfor tilbyr jeg rimelige webdesign-løsninger som ikke går på kompromiss med kvaliteten.
+    <p> Eg har bakgrunn i frå daglegvare, dei siste 9 åra som leiar/ butikksjef.
+        Har alltid vore opptatt av å ha det ryddig og reint i mitt virke,
+        det er noko eg prøver å overføre til eit framtidig arbeide som frontend-utviklar òg.
+        Det eg synes er mest interessant for tida er React, og har eit sterkt ønske om å utvikle meg til å bli ein god kodar!
+        Ellers er eg sjølverklært sportsidiot, med fotball som hovudsport og Liverpool som favorittklubb.
+        
 
-Min spesialitet er å skape flotte og brukervennlige nettsteder til en pris som passer for deg. Jeg tror at en profesjonell nettside ikke trenger å være en luksus, men heller en nødvendighet for enhver bedrift eller enkeltperson som ønsker å nå ut til sitt publikum på nettet.
-
-Uansett om du er en liten bedrift, en frilanser eller en oppstart, kan jeg hjelpe deg med å realisere dine digitale mål. Jeg tror på å bygge langsiktige partnerskap med mine kunder, og er opptatt av å levere resultater som overstiger forventningene.
-
-Ta kontakt i dag for å starte på veien mot en imponerende nettside til en fornuftig pris. Jeg ser frem til å samarbeide med deg og hjelpe deg med å lykkes online!</p>
+    </p>
 
 
 </Texts>
@@ -60,8 +61,8 @@ const Texts = styled.div`
 
 flex: 1;
 h4 {
-    font-family: Helvetia-neue Narrow SemiBold;
-    color:#03002f;
+    font-family: Montserrat;
+    color:#FF9912;
     font-size: 16px;
     letter-spacing: .2em;
     padding: 2rem 0;
@@ -80,7 +81,7 @@ h4 {
     color: #03002f;
   }
   h3 {
-    color:#03002f;
+    color:#FF9912;
     font-weight: 500;
     font-size: 1.2rem;
     padding-top: 2rem;
@@ -96,7 +97,7 @@ h4 {
     /*line-height: 36px;*/
     letter-spacing:0.01em;
     line-height: 25px;
-    color: #03002f;
+    color: black;
     max-width: 80%;
     font-weight: 400;
     

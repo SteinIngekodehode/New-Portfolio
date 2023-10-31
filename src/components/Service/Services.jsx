@@ -23,25 +23,21 @@ const Services = () => {
           <Card
             Icon={MdDesignServices}
             title={"CSS"}
-            disc={` I dagens mobile verden er det viktigere enn noensinne å ha en nettside som fungerer sømløst på alle enheter.
-             Med skikkelig responsivt webdesign, vil nettstedet ditt tilpasse seg automatisk til forskjellige skjermstørrelser og gi en optimal brukeropplevelse uansett om det åpnes på en datamaskin, nettbrett eller smarttelefon.`}
+            disc={` `}
           />
         </Slide>
         <Slide direction="up">
           <Card
             Icon={FiCodesandbox}
             title={"HTML"}
-            disc={`Jeg tilbyr fullstendig design og utvikling av nettsider som er skreddersydd til dine behov.
-             Jeg jobber tett med deg for å skape en visuelt tiltalende og brukervennlig nettside som representerer din merkevare på en engasjerende måte.
-             Uansett om du trenger en grundig overhaling av nettstedet ditt eller bare noen små justeringer.`}
+            disc={``}
           />
         </Slide>
         <Slide direction="right">
           <Card
             Icon={CgWebsite}
             title={"Javascript"}
-            disc={`Jeg fokuserer ikke bare på estetikk, men også på brukervennlighet. Jeg designer intuitive brukergrensesnitt som gjør det enkelt for besøkende å navigere på nettstedet ditt og finne den informasjonen de leter etter.
-             Ved å optimalisere brukeropplevelsen bidrar jeg til å øke engasjementet og konverteringen på ditt nettsted.`}
+            disc={``}
           />
           
         </Slide>
@@ -49,26 +45,22 @@ const Services = () => {
         <Slide direction="left">
           <Card
             Icon={MdDesignServices}
-            title={"CSS"}
-            disc={` I dagens mobile verden er det viktigere enn noensinne å ha en nettside som fungerer sømløst på alle enheter.
-             Med skikkelig responsivt webdesign, vil nettstedet ditt tilpasse seg automatisk til forskjellige skjermstørrelser og gi en optimal brukeropplevelse uansett om det åpnes på en datamaskin, nettbrett eller smarttelefon.`}
+            title={"React"}
+            disc={` `}
           />
         </Slide>
         <Slide direction="up">
           <Card
             Icon={FiCodesandbox}
-            title={"HTML"}
-            disc={`Jeg tilbyr fullstendig design og utvikling av nettsider som er skreddersydd til dine behov.
-             Jeg jobber tett med deg for å skape en visuelt tiltalende og brukervennlig nettside som representerer din merkevare på en engasjerende måte.
-             Uansett om du trenger en grundig overhaling av nettstedet ditt eller bare noen små justeringer.`}
+            title={"Vite"}
+            disc={``}
           />
         </Slide>
         <Slide direction="right">
           <Card
             Icon={CgWebsite}
-            title={"Javascript"}
-            disc={`Jeg fokuserer ikke bare på estetikk, men også på brukervennlighet. Jeg designer intuitive brukergrensesnitt som gjør det enkelt for besøkende å navigere på nettstedet ditt og finne den informasjonen de leter etter.
-             Ved å optimalisere brukeropplevelsen bidrar jeg til å øke engasjementet og konverteringen på ditt nettsted.`}
+            title={"Github"}
+            disc={``}
           />
           
         </Slide>
@@ -94,7 +86,7 @@ const Container = styled.div`
   }
 
   .tjenester {
-    color: #ffbf00;
+    color: #FF9912;
   }
 
   h1 {

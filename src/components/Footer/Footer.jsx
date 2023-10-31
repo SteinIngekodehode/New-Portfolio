@@ -85,7 +85,7 @@ const Footer = () => {
               <FiPhoneCall />
             </span>
             <Slide direction="left">
-              <a href="tel:+4799585408">+47 99 58 54 08</a>
+              <a href="tel:+4741236012">+47 41 23 60 12</a>
             </Slide>
           </div>
           <div>
@@ -95,7 +95,7 @@ const Footer = () => {
               </span>
             </Slide>
             <Slide>
-              <a href="mailto:SkaarWebdesign@gmail.com">SkaarWebdesign@gmail.com</a>
+              <a href="mailto:fastelav1@gmail.com">fastelav1@gmail.com</a>
             </Slide>
           </div>
         </div>
@@ -106,14 +106,14 @@ const Footer = () => {
           <div className="icons">
             <Zoom>
               <span>
-                <a href="https://github.com/Raaks1">
+                <a href="https://github.com/SteinIngekodehode">
                   <AiFillGithub />
                 </a>
               </span>
             </Zoom>
             <Zoom>
               <span>
-                <a href="https://www.linkedin.com/in/joar-fonn-skaar/">
+                <a href="https://www.linkedin.com/in/stein-inge-kvernhusvik/">
                   <AiFillLinkedin />
                 </a>
               </span>
@@ -228,7 +228,7 @@ const Profile = styled.div`
       display: flex;
       align-items: center;
       gap: 0.5rem;
-      color: #ffbf00;
+      color: #FF9912;
       a {
         text-decoration: none;
         color: #03002f;
@@ -261,7 +261,7 @@ const Profile = styled.div`
         height: 2rem;
         margin-right: 0.5rem;
         border-radius: 50px;
-        background-color: #ffbf00;
+        background-color: #FF9912;
        
 
         :hover {
@@ -339,7 +339,7 @@ const Form = styled.div`
         display: flex;
         align-items: center;
         justify-content: center;
-        color: #ffbf00;
+        color: #FF9912;
       }
       .messageIcon {
         align-items: flex-start;
