@@ -15,7 +15,7 @@ const Services = () => {
         <h4>
            <span className="tjenester">Ferdigheter</span>
         </h4>
-        <h1>Hva jeg har lært så langt</h1>
+        <h1>Det eg har lært så langt</h1>
        
       </Slide>
       <Cards>
