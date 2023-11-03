@@ -12,7 +12,7 @@ const Header = () => {
         </Logo>
         <Nav bar={bar}>
             <span><a href="#home">Hjem</a></span>
-            <span><a href="#service">Tjenester</a></span>
+            <span><a href="#service">Teknologier</a></span>
             <span><a href="#project">Prosjekter</a></span>
            {/*} <span><a href="#client">Testimonials</a></span>{*/}
             <span><a href="#footer">Kontakt</a></span>
