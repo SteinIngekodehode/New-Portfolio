@@ -11,8 +11,8 @@ const Header = () => {
             <h1>Portfolio</h1>
         </Logo>
         <Nav bar={bar}>
-            <span><a href="#home">Hjem</a></span>
-            <span><a href="#service">Teknologier</a></span>
+            <span><a href="#home">Heim</a></span>
+            <span><a href="#service">Teknologiar</a></span>
             <span><a href="#project">Prosjekter</a></span>
            {/*} <span><a href="#client">Testimonials</a></span>{*/}
             <span><a href="#footer">Kontakt</a></span>
