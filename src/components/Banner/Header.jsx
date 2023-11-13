@@ -14,7 +14,6 @@ const Header = () => {
             <span><a href="#home">Heim</a></span>
             <span><a href="#service">Teknologiar</a></span>
             <span><a href="#project">Prosjekter</a></span>
-           {/*} <span><a href="#client">Testimonials</a></span>{*/}
             <span><a href="#footer">Kontakt</a></span>
         </Nav>
         <div
