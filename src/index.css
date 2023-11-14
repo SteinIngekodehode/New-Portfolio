@@ -14,7 +14,8 @@
   -text: #00B2A9;
   --text: #F6EB61;
   --lighter: #b21534;
-  ---background: #fff;
+  ---background: #fff;/*rgba(16, 1, 24, 0.97);*/
+}
 
 body{
   width: 100%;
@@ -70,11 +71,6 @@ body{
   color:#03002f;
   font-family: 'Montserrat';
 }
-
-
-
-
-
 .slick-list, .slick-slider, .slick-track{
   padding: 1.5rem 0;
 }
