@@ -14,8 +14,7 @@
   -text: #00B2A9;
   --text: #F6EB61;
   --lighter: #b21534;
-  ---background: #fff;/*rgba(16, 1, 24, 0.97);*/
-}
+  ---background: #fff;
 
 body{
   width: 100%;
