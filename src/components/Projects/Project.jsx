@@ -43,7 +43,7 @@ const Container = styled.div`
         text-align: center;
         padding: 0.5rem;
         background: linear-gradient(rgba(0,0,0, 0.100), rgba(0,0,0, 0.80));
-        transition: all 400ms ease-in-out;
+        transition: all 400ms ease-in-out; 
         h1{
             font-size: 1rem;
             font-family: Arial;

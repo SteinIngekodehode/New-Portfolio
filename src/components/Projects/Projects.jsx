@@ -8,7 +8,7 @@ const Projects = () => {
     <Container id='project'>
         <Zoom>
             <h1><span className="kontakt">Prosjekter</span></h1>
-            <p>Oversikt over oppgaver og prosjekter jeg har jobbet med siden oppstart av Kodehode.</p>
+            <p>Oversikt over oppgaver og prosjekter eg har jobbet med sidan oppstart av Kodehode.</p>
         </Zoom>
         <Slide>
             <SliderComp/>

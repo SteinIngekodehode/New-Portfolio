@@ -6,7 +6,7 @@ import { HiOutlineMailOpen } from "react-icons/hi";
 import { AiFillGithub, AiFillLinkedin, AiOutlineArrowUp } from "react-icons/ai";
 import { BsFacebook, BsInstagram, } from "react-icons/bs";
 import { FiMail, FiPhoneCall,FiAlertOctagon } from "react-icons/fi";
-import { Slide, Zoom, Fade } from "react-awesome-reveal";
+import { Slide, Zoom, Fade } from "react-awesome-reveal"; /* importing effects for components/*/
 
 
 
@@ -55,10 +55,10 @@ const Footer = () => {
     alert(result.status);
   };*/
   
- const scrollUp = () => {
+ const scrollUp = () => { /** function using window.scroll method to scroll the page to the top*/
     window.scroll({
       top: 0,
-      behavior: "smooth",
+      behavior: "smooth",/**smooth animation */
     });
   };
   return (
